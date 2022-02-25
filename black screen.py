@@ -42,7 +42,7 @@ def dt():
     
 def openNewWindow():
 	newWindow = Toplevel(master)
-	newWindow.attributes('-fullscreen',False)
+	newWindow.attributes('-fullscreen',True)
 	newWindow.configure(background='black')
 	Button(newWindow,
 		text="SUBMIT CODE",command=dt).pack(pady=10)
